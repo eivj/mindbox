@@ -30,6 +30,10 @@ namespace mindbox
            
         }
 
+        /// <summary>
+        /// calculate the area
+        /// </summary>
+        /// <returns></returns>
         public override double CalculateArea()
         {
             double CircleArea = Math.PI * Math.Pow(Radius, 2);
